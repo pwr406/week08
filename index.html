@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Header section with nav elements for other page links-->
+    <header>
+        <h1>Home</h1>
+        <nav>
+            <ul class="navBar">
+                <li id="navItem" class="active"><a href="index.html" class="navLink">Home</a></li>
+                <li id="navItem"><a href="about.html" class="navLink">About</a></li>
+                <li id="navItem"><a href="contact.html" class="navLink">Contact</a></li>
+            </ul>              
+        </nav>
+    </header>
+    <!--main with sections for different content elements-->
+    <main>
+        <h2>Welcome to my web page!</h2>
+        <!-- new section for neat facts-->
+        <section class="facts">
+       
+            <h3> Here are some neat facts:</h3>
+            <!--unordered list with four list items-->
+            <ul id="facts">
+                <li>The world’s oldest wooden wheel has been around for more than 5,000 years</li>
+                <li>Dead skin cells are a main ingredient in household dust</li>
+                <li>Sudan has more pyradmids than any country in the world</li>
+                <li>The bumblebee bat is the world's smallest mammal</li>
+            </ul>
+        </section>
+
+        <section class="photos">
+            <h3>I know you want to see some pictures of that bat!</h3>
+            <!--direct link to an image-->
+            <img src="data:image/jpeg;base64,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">
+            <!--relevant link to images-->
+            <img src="images/bat.jpeg" height ="300" alt="a really small bat">
+            <img src="images/batman.jpeg">
+            <p id="last">wait, I think that is the wrong kind of bat.</p>
+        
+        </section>
+    </main>
+    
+</body>
+</html>

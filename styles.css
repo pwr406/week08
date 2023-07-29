@@ -1,0 +1,130 @@
+    /* element styling for H1 */
+h1 {
+    font-size: 55px;
+    text-align: center;
+}
+    /* element styling for nav element */
+nav {
+    font-size: 28px;
+    justify-content: space-around;
+    text-align: center;
+}
+    /* class styling for unordered list - class navBar */
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+    /*Id styling for list item - ID navItem  */
+#navItem {
+    float: left;
+    border-right: 1px solid #bbb;    
+
+}
+/* class styling for links in nav unordered list */
+.navLink {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Id styling to style link hover for nav items */
+#navItem a:hover {
+    background-color: #534747;
+}
+/* class styling for active link */
+.active {
+    background-color: rgb(128, 8, 8);
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-style: italic;
+    color: blueviolet;
+    text-align: center;
+}
+
+.facts {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+#facts li {
+    list-style-type: square;
+    color: green;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+        
+}
+
+.photos {
+    margin: auto;
+    width: 50%;
+}
+
+.photos img {
+    display: inline;
+    justify-content: space-around;
+    padding: 20px; 
+    border-style: dashed;
+}
+
+#last {
+    text-align: center;
+    color: red;
+    font-size: 30px;   
+
+    }
+
+body {
+    background-color: #534747;
+    }
+
+#superHeros, th, td {
+    margin: auto;
+    border-collapse: collapse;
+    border-style: solid;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+tr:nth-child(even) {
+    background-color: #bbb;
+}
+
+.contact {
+    display: block;
+    color: whitesmoke;
+    border-style: dotted;
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+    }
+
+.contact input {
+    display: inline-block; 
+    padding: 2px;
+    
+}
+
+#submit {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    background-color: red;
+}

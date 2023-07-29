@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Contact</h1>
+    <nav>
+        <ul class="navBar">
+            <li id="navItem"><a href="index.html" class="navLink">Home</a></li>
+            <li id="navItem"><a href="about.html" class="navLink">About</a></li>
+            <li id="navItem" class="active"><a href="contact.html" class="navLink">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <h2> Contact Me</h2>
+        <!--created form with text inputs and radio inputs.-->
+        <form class="contact">
+            <!--moved inputs to different lines using <br> - will correct in css. - used label attribute for to associate with ID of input-->
+            <label for="firstName">First Name: </label><input type="text" name="firstName" placeholder="First Name" id="firstName"> 
+            <label for="lastName">Last Name: </label><input type="text" name="lastName" placeholder="Last Name" id="lastName"> 
+            <label for="phone">Phone: </label><input type="tel"  name="Phone" placeholder="Phone number" id="phone"> 
+           <!--added field set and legend to group together radio buttons. added checked to last radio button-->
+            <fieldset>
+            <legend>What is your reason for contacting me?</legend>
+            <input type="radio" name="contactReason" value="Hello"> Just saying hello 
+            <input type="radio" name="contactReason" value="Complaint"> I am mad and want to complain 
+            <input type="radio" name="contactReason" value="Compliment" checked>I want to compliment you 
+            <input type="submit" value="Submit" id="submit">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
