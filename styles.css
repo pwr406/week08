@@ -40,14 +40,14 @@ nav {
 .active {
     background-color: rgb(128, 8, 8);
 }
-
+/* element styling for h2 headings */
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     font-style: italic;
     color: blueviolet;
     text-align: center;
 }
-
+/* class styling for facts */
 .facts {
     margin: auto;
     width: 50%;
@@ -55,12 +55,12 @@ h2 {
     padding: 10px;
     box-shadow: 5px 5px 5px grey;
 }
-
+/* element styling for h3 headings */
 h3 {
     font-weight: bold;
     text-align: center;
 }
-
+/* id styling for fact list items */
 #facts li {
     list-style-type: square;
     color: green;
@@ -69,30 +69,30 @@ h3 {
     font-size: 20px;
         
 }
-
+/* class style for photos section */
 .photos {
     margin: auto;
     width: 50%;
 }
-
+/* class style for images within the photos class */
 .photos img {
     display: inline;
     justify-content: space-around;
     padding: 20px; 
     border-style: dashed;
 }
-
+/* id style for last id */
 #last {
     text-align: center;
     color: red;
     font-size: 30px;   
 
     }
-
+/* element styling for body - set background color */
 body {
     background-color: #534747;
     }
-
+/* styling for superHeros ID, Table heading, table Data */
 #superHeros, th, td {
     margin: auto;
     border-collapse: collapse;
@@ -102,10 +102,11 @@ body {
     text-align: center;
 
 }
+/* element styling for table row, every even row by using nth-child */
 tr:nth-child(even) {
     background-color: #bbb;
 }
-
+/* class styling for contact - */
 .contact {
     display: block;
     color: whitesmoke;
@@ -114,17 +115,20 @@ tr:nth-child(even) {
     padding: 10px;
     margin: auto;
     }
-
+/* class styling for any input under contact */
 .contact input {
     display: inline-block; 
     padding: 2px;
     
 }
-
+/* id styling for Submit button */
 #submit {
     display: block;
     margin: auto;
     margin-top: 10px;
     color: white;
     background-color: red;
+    font-size: 3rem;
+    border-radius: 10px;
+    padding: 5px;
 }
